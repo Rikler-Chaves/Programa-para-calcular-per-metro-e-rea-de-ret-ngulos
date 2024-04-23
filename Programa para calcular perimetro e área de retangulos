@@ -1,0 +1,15 @@
+using System;
+//entrada
+double baseretângulo, lado, perimetro, area, diagonal;
+Console.WriteLine("Escreva o valor da base do seu retângulo"); 
+baseretângulo= double.Parse(Console.ReadLine());
+Console Writeline("Escreva o valor do lado do retângulo"); 
+lado=double.Parse(Console-ReadLine());
+//formulas
+perimetro=2* (baseretângulo+lado);
+area=baseretângulo*lado;
+diagonal= Math. Sqrt (Math. Pow(baseretângulo,2)+Math. Pow(lado,2));
+//saida
+Console WriteLine("O perimetro é:"+perimetro);
+Console-WriteLine("A area é:"+area);
+Console WriteLine("A diagonal é:"+diagonal);
